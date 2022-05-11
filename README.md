@@ -44,3 +44,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## TODO
+~~- Two ts classes, circuit-breaker and Service.~~
+- Find a way to change state when something in these objects change.
+~~- Create a service node that will reflect the information of the service.
+  - Service health
+  - Toggle service to return error or not~~
+~~- Create a consumer node that will reflect the information of the circuit breaker.~~
+
+- call the service node repeatedly or on demand.
+- custom edges.
+- 

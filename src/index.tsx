@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Network from "./ServiceFlow";
 import reportWebVitals from './reportWebVitals';
+import CircuitBreakerFlow from "./CircuitBreakerFlow";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CircuitBreakerFlow />
   </React.StrictMode>,
   document.getElementById('root')
 );
